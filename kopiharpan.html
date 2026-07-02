@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Harpan - Linktree</title>
+    <!-- Tailwind CSS untuk tata letak murni mirip Linktree asli -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk ikon tombol & media sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#121212] text-white font-sans min-h-screen flex flex-col items-center px-4 py-8">
+
+    <!-- Container Utama Ringan (Sama persis seperti layout Linktree Mobile) -->
+    <div class="w-full max-w-xl flex flex-col items-center space-y-6">
+        
+        <!-- Header Profil -->
+        <div class="text-center w-full flex flex-col items-center mt-4">
+            <!-- Lingkaran Inisial Logo -->
+            <div class="w-24 h-24 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-black shadow-md border border-neutral-800 mb-4">
+                KH
+            </div>
+            <!-- Nama Toko -->
+            <h1 class="text-xl font-bold tracking-wide">Kopi Harpan</h1>
+            <!-- Deskripsi Singkat -->
+            <p class="text-neutral-400 text-sm mt-1">Kedai Kopi • Sragen Tengah</p>
+            
+            <!-- Rating & Harga Google -->
+            <div class="flex justify-center gap-2 mt-3 text-xs">
+                <span class="bg-neutral-900 border border-neutral-800 px-3 py-1 rounded-full text-yellow-400 font-medium">
+                    <i class="fas fa-star mr-1"></i> 4.8 (76 Ulasan)
+                </span>
+                <span class="bg-neutral-900 border border-neutral-800 px-3 py-1 rounded-full text-neutral-400">
+                    Rp 1–25.000
+                </span>
+            </div>
+        </div>
+
+        <!-- Status Jam Buka -->
+        <div class="w-full max-w-md bg-red-950/30 text-red-400 rounded-full py-2 px-4 text-center text-xs font-semibold border border-red-900/50">
+            <i class="fas fa-clock mr-1.5"></i> Buka • Tutup pukul 22.00
+        </div>
+
+        <!-- 4 TOMBOL UTAMA (Tombol Tulis Tinjauan Google Sudah Dihapus) -->
+        <div class="w-full max-w-md space-y-3 pt-2">
+            
+            <!-- 1. BUKU MENU (Membuka PDF langsung ke Google Drive) -->
+            <a href="https://drive.google.com/file/d/1g2uSgE1ZbMel8Nl0Pjtgc95BkeUfsUEq/view?usp=sharing" target="_blank" 
+               class="group relative flex items-center justify-center w-full bg-[#1c1c1c] hover:bg-[#262626] border border-neutral-800 text-white font-medium py-4 px-14 rounded-xl transition duration-200">
+                <div class="absolute left-5 text-xl text-neutral-400 group-hover:text-white transition">
+                    <i class="fas fa-file-pdf text-red-500"></i>
+                </div>
+                <span class="text-sm tracking-wide">Buku Menu (PDF)</span>
+            </a>
+
+            <!-- 2. INFORMASI & RESERVASI -->
+            <a href="https://wa.me/6285641002643?text=Halo%20Kopi%20Harpan,%20saya%20ingin%20tanya%20informasi%20dan%20reservasi" target="_blank" 
+               class="group relative flex items-center justify-center w-full bg-[#1c1c1c] hover:bg-[#262626] border border-neutral-800 text-white font-medium py-4 px-14 rounded-xl transition duration-200">
+                <div class="absolute left-5 text-xl text-neutral-400 group-hover:text-white transition">
+                    <i class="fab fa-whatsapp text-green-500"></i>
+                </div>
+                <span class="text-sm tracking-wide">Informasi & Reservasi</span>
+            </a>
+
+            <!-- 3. PESAN ONLINE -->
+            <a href="https://wa.me/6285641002643?text=Halo%20Kopi%20Harpan,%20saya%20mau%20pesan%20menu%20secara%20online" target="_blank" 
+               class="group relative flex items-center justify-center w-full bg-[#1c1c1c] hover:bg-[#262626] border border-neutral-800 text-white font-medium py-4 px-14 rounded-xl transition duration-200">
+                <div class="absolute left-5 text-xl text-neutral-400 group-hover:text-white transition">
+                    <i class="fas fa-shopping-bag text-red-400"></i>
+                </div>
+                <span class="text-sm tracking-wide">Pesan Online</span>
+            </a>
+
+            <!-- 4. LOKASI -->
+            <a href="https://maps.google.com/?q=Kopi+Harpan+Magero+Sragen" target="_blank" 
+               class="group relative flex items-center justify-center w-full bg-[#1c1c1c] hover:bg-[#262626] border border-neutral-800 text-white font-medium py-4 px-14 rounded-xl transition duration-200">
+                <div class="absolute left-5 text-xl text-neutral-400 group-hover:text-white transition">
+                    <i class="fas fa-map-marker-alt text-blue-500"></i>
+                </div>
+                <span class="text-sm tracking-wide">Lokasi</span>
+            </a>
+
+        </div>
+
+        <!-- BAGIAN IKON SOSIAL MEDIA & UTILITY (WhatsApp & Instagram) -->
+        <div class="flex justify-center items-center gap-6 pt-2 text-2xl text-neutral-400">
+            <a href="https://instagram.com/kopiharpan" target="_blank" class="hover:text-pink-500 transition duration-200">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6285641002643" target="_blank" class="hover:text-green-500 transition duration-200">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <!-- SEKSI: ULASAN PELANGGAN (Google Reviews Simulasi) -->
+        <div class="w-full max-w-md pt-4">
+            <h3 class="text-xs text-neutral-500 font-bold uppercase tracking-widest mb-3 flex items-center justify-between">
+                <span><i class="fab fa-google text-red-500 mr-1.5"></i> Ulasan Sorotan</span>
+                <span class="text-yellow-400 font-normal normal-case"><i class="fas fa-star"></i> 5.0 / 5.0</span>
+            </h3>
+            
+            <div class="space-y-3">
+                <!-- Ulasan 1 -->
+                <div class="bg-[#1c1c1c] border border-neutral-800 p-4 rounded-xl">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-sm font-semibold text-neutral-200">Rian H.</span>
+                        <div class="text-xs text-yellow-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    <p class="text-xs text-neutral-400 leading-relaxed">"Signature Coffee Harpan 01 nya juara banget! Tempatnya asyik buat nongkrong sore di Sragen."</p>
+                </div>
+
+                <!-- Ulasan 2 -->
+                <div class="bg-[#1c1c1c] border border-neutral-800 p-4 rounded-xl">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-sm font-semibold text-neutral-200">Amelia Putri</span>
+                        <div class="text-xs text-yellow-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    <p class="text-xs text-neutral-400 leading-relaxed">"Pelayanannya ramah dan cepat, harga ramah di kantong mahasiswa. Rossepina-nya segar parah!"</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Tambahan Fasilitas Kedai -->
+        <div class="grid grid-cols-2 gap-2 w-full max-w-md text-center text-xs font-medium text-neutral-400 pt-2">
+            <div class="bg-[#1c1c1c] border border-neutral-800 py-2.5 rounded-lg"><i class="fas fa-utensils text-red-500 mr-1.5"></i> Makan di tempat</div>
+            <div class="bg-[#1c1c1c] border border-neutral-800 py-2.5 rounded-lg"><i class="fas fa-shopping-bag text-red-500 mr-1.5"></i> Bawa pulang</div>
+        </div>
+
+        <!-- Footer Detail Alamat -->
+        <div class="w-full max-w-md text-center text-xs text-neutral-500 space-y-1.5 pt-6 border-t border-neutral-900">
+            <p class="px-4 leading-relaxed">Magero, Sragen Tengah, Kec. Sragen, Kabupaten Sragen, Jawa Tengah 57211</p>
+            <p class="font-medium text-neutral-400">Hubungi: 0856-4100-2643</p>
+            <p class="text-[10px] text-neutral-600">Plus Code: H2CG+PH Sragen Tengah</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
